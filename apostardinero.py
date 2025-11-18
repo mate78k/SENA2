@@ -18,13 +18,13 @@ while contador <= 5:
     
     if n1 == n2 == n3:
         ganancia = apuesta * 3
-        print("🎉 ¡Tres iguales! Ganas 3 veces lo apostado.")
+        print(" ¡Tres iguales! Ganas 3 veces lo apostado.")
     elif n1 == n2 or n2 == n3 or n1 == n3:
         ganancia = apuesta * 1.5
-        print("😊 Dos iguales, ganas una vez y media lo apostado.")
+        print(" Dos iguales, ganas una vez y media lo apostado.")
     else:
         ganancia = 0
-        print("💀 No hay iguales, pierdes todo.")
+        print(" No hay iguales, pierdes todo.")
 
     acumulador += ganancia
     print("Dinero acumulado hasta ahora: $", acumulador)
